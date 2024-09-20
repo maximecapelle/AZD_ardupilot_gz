@@ -109,14 +109,14 @@
         </sensor>
       </link>
     </model>
-    
+
     <include>
       <uri>model://runway</uri>
       <pose degrees="true">-29 545 0 0 0 363</pose>
     </include>
 
     <include>
-      <uri>model://iris_with_gimbal</uri>
+      <uri>model://iris_with_ardupilot</uri>
       <pose degrees="true">0 0 0.195 0 0 90</pose>
     </include>
 
