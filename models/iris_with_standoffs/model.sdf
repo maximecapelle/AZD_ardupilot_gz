@@ -45,6 +45,7 @@
         <geometry>
           <mesh>
             <uri>model://iris_with_standoffs/meshes/iris.dae</uri>
+            <!-- <uri>model://skytech_e2_frame/meshes/skyteche2_lr0.02.dae</uri> -->
           </mesh>
         </geometry>
         <material>

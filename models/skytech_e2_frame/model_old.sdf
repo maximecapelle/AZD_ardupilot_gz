@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="skytech_e2">
+    <!-- The model is static and won't move -->
+    <!--<static>true</static> -->
+
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://skytech_e2/meshes/skyteche2_lr1.0.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+        </material>
+      </visual>
+      <collision name="collision_box">
+        <geometry>
+          <box>
+            <size>1 1 0.3</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+
+    <pose>0 0 0 0 0 0</pose>
+  </model>
+</sdf>
