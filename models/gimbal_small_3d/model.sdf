@@ -68,7 +68,7 @@
         </geometry>
       </collision>
     </link>
-    <joint name="yaw_joint" type="revolute">
+    <joint name="yaw_joint" type="fixed">
       <parent>base_link</parent>
       <child>yaw_link</child>
       <axis>
@@ -116,7 +116,7 @@
         </geometry>
       </collision>
     </link>
-    <joint name="roll_joint" type="revolute">
+    <joint name="roll_joint" type="fixed">
       <parent>yaw_link</parent>
       <child>roll_link</child>
       <axis>
@@ -210,7 +210,7 @@
           <max_zoom>125.0</max_zoom>
           <slew_rate>0.42514285714</slew_rate>
         </plugin>
-        
+
         <plugin name="GstCameraPlugin"
             filename="GstCameraPlugin">
           <udp_host>127.0.0.1</udp_host>
@@ -221,7 +221,7 @@
 
       </sensor>
     </link>
-    <joint name="pitch_joint" type="revolute">
+    <joint name="pitch_joint" type="fixed">
       <parent>roll_link</parent>
       <child>pitch_link</child>
       <axis>
