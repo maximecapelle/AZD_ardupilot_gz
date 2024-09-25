@@ -2,7 +2,8 @@
 <sdf version="1.9">
   <model name="skytech_e2_frame">
     <!-- The model is static and won't move -->
-    <!--<static>true</static> -->
+    <static>false</static>
+    <enable_wind>true</enable_wind>
 
     <link name='base_link'>
       <velocity_decay>
